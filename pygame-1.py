@@ -20,6 +20,7 @@ while run:
         if event.type = pygame.QUIT:
             run = False
 
+
     pygame.draw.rect(win, (255,0,0), (x,y,width,height))
     pygram.display.update()
 
